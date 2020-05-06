@@ -1,0 +1,109 @@
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+/* The sidepanel menu */
+.sidepanel {
+  height: 250px; /* Specify a height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0px;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+  border-style:groove;
+}
+
+/* The sidepanel links */
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidepanel a:hover {
+  color: #B376F5;
+}
+
+/* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  font-size: 30px;
+  margin-left: 70px;
+}
+
+/* Style the button that is used to open the sidepanel */
+.openbtn {
+  font-size: 25px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: 10px;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+body {
+    margin: 0;
+    margin-top: 0px;
+	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://www.pptgrounds.com/wp-content/uploads/2013/07/Metalic-Border-Frames-Backgrounds-800x600.jpg');
+}
+.container2 {
+	
+  margin-top: 70px;
+  margin-left: 28%;
+  width: 700px;
+  text-align: center;
+  border: 2px;
+  border-style: inset;
+  border-color: #D8DBE5;
+  font-size:20px;
+  font-style: solid black;
+}
+.listFlex {
+	display: flex; 
+	justify-content: center;
+}
+
+#a{
+ margin-top:80px;
+ margin-left:22%;
+ text-decoration: underline;
+    text-decoration-color: Orange;
+	font-style: italic;
+}
+
+
